@@ -1,0 +1,28 @@
+{
+  "name": "rex-ogm",
+  "description": "An Object Graph Mapper (\"OGM\") which dramatically simplifies the creation, storage and retrieval of vertices and edges within a graph database running rexster",
+  "version": "1.0.0",
+  "author": "Ben Mag",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benmag/rex-ogm"
+  },
+  "bugs": {
+    "url": "https://github.com/benmag/rex-ogm/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "2.2.x",
+    "async": "0.9.x",
+    "hat": "0.0.x"
+  },
+  "devDependencies": {
+    "mocha": "1.21.x",
+    "chai": "1.9.x",
+    "chai-as-promised": "4.1.x"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
