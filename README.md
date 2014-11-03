@@ -1,3 +1,5 @@
+NOTE: This package is still in alpha
+
 rex-ogm
 =======
 An Object Graph Mapper ("OGM") which dramatically simplifies the creation, storage, retrieval and removal of vertices and edges within a graph database running Rexster.
@@ -8,7 +10,9 @@ Originally this was built as a library within another project but it continued t
 
 Installation
 ============
-Coming soon.
+```javascript
+npm install rex-ogm
+```
 
 
 Quick start
